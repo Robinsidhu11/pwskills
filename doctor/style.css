@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #F0F4F5;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 100px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 80px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: large;
+}
+.right{
+    /* background-color: black; */
+}
+.images{
+    /* background-color: aquamarine; */
+}
+
+.images .first{
+    position: absolute;
+    width: 480px;
+    bottom: 30px;
+    right: 0px;
+
+}
+.images .second{
+    position: absolute;
+    width: 400px;
+    top: 320px;
+    right: 0px;
+    
+    
+}
+.images .third{
+    position: relative;
+    width: 500px;
+    top: 10px;
+    left: 10px;
+
+}
+/* .images{
+    background: url(./assets/yellowBox.png),url(./assets/greenBox.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: flex-end;
+    background-size: 400px;
+} */
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    background-image: url(./assets/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position: center;
+    background-position-y: top;
+}
+.main .left{
+    /* background-color: rgb(6, 28, 30); */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    margin: 70px 120px;
+}
+.main .left h1{
+    font-weight: 600;
+    font-size: 75px;
+}
+.left p{
+    color: rgb(124,124,144);
+    font-size: 20px;
+}
+.main .left{
+    align-self: stretch;
+}
+.left button{
+    color: white;
+    background-color: #20BC7E;
+    padding: 15px 35px;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600;
+    font-size: 26px;
+}
+.left .buttonanglemouse{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #20BC7E; */
+    margin-top: 30px;
+}
+.left .icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* background-color: yellowgreen; */
+}
+.left .mouse{
+    grid-area: 2 / 2 / 3 /3;
+    
+}
